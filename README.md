@@ -1,1 +1,1 @@
-Learned and gained experience in ngspice and its basic commands and visualised the characteristics of CMOS transistor using the plot command
+on the process of learning ngspice software and the characteristics of CMOS transistors
