@@ -7,7 +7,7 @@
 ### day1_nfet_idvds_L2_W5.spice
 
 Open Virtual Box.
-https://github.com/eatheswar/CMOS-Workshop/blob/main/DAY%201/day11.JPG?raw=true
+
 In the Terminal Emulator, open the folder of design files using the following command:
 
 ``bash
