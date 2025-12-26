@@ -5,7 +5,7 @@
 ## Day 01  
 ### day1_nfet_idvds_L2_W5.spice
 
-Open Virtual Box.
+Open Github through NOVNC connection.
 
 In the Terminal Emulator, open the folder of design files using the following command:
 
