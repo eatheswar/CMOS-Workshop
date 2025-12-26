@@ -66,7 +66,25 @@ It comes around 0.72.
 ## Day 03
 ### Lab 3.1 – day3_inv_tran_Wp084_Wn036.spice
 
-<img width="1229" height="694" alt="image" src="https://github.com/user-attachments/assets/549b6092-da43-43ab-9e08-dfd72e5bd949" />
+.include sky130_fd_pr__pfet_01v8.pm3.spice tt
+.include sky130_fd_pr__nfet_01v8.pm3.spice tt
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 W=0.84 L=0.15
+XM2 out in 0   0   sky130_fd_pr__nfet_01v8 W=0.36 L=0.15
+
+Cload out 0 50f
+
+Vdd vdd 0 1.8V
+Vin in 0 PULSE(0V 1.8V 0 0.1ns 0.1ns 2ns 4ns)
+
+* simulation commands
+.tran 10n
+
+.control
+run
+.endc
+
+.end
 
 The waveform is given by:
 
