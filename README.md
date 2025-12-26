@@ -39,9 +39,6 @@ To check the value of Id for corresponding Vds and Vgs, just left click and see.
 
 The SPICE code for the Day 02 Id vs Vgs is given below.
 
-<img width="1465" height="828" alt="image" src="https://github.com/user-attachments/assets/88d78cec-42ea-46fc-926f-2b5764984f7f" />
-
-
 From the above code, we can see the values for L and W is 0.15u and W = 0.39u.
 
 
