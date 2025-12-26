@@ -1,5 +1,4 @@
 ## CMOS Circuit Design Workshop - Spice Simulation using Sky130nm Technology
-### Lab Documentation
 
 ---
 
