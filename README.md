@@ -27,11 +27,13 @@ plot -vdd#branch
 
 The result is a plot of the above SPICE code in another tab as a pop-up.
 
---imgage day13--
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/65da165a-74ad-4751-81dc-d6e9b8a26d68" />
+
 
 To check the value of Id for corresponding Vds and Vgs, just left click and see.
 
---image day11--
+<img width="1916" height="1079" alt="image" src="https://github.com/user-attachments/assets/8c26b289-49b4-4bf2-83dc-6832f02d8915" />
+
 
 ## Day 02
 ### Lab 2.1 – day2_nfet_idvds_L015_W039.spice
@@ -49,7 +51,8 @@ The plot shows Id vs Vds for different Vgs values. For low values of Vgs, it is 
 
 If we want to see the peak current for Vgs = 1.8 V, just left click on the curve at Vgs = 1.8 V.
 
---image day23--
+<img width="1888" height="1047" alt="image" src="https://github.com/user-attachments/assets/9be4ce91-e605-4ff5-aa1e-2be2ff6aef8d" />
+
 
 
 Here also, we take L = 0.15u and W = 0.39u. Vds is maintained at 1.8 V and Vgs is swept from 0 to 1.8 V in steps of 0.1 V.
@@ -60,7 +63,8 @@ From the above curve we can find threshold voltage by seeing that Vt is the valu
 
 It comes around 0.72.
 
---image day22--
+<img width="1893" height="1037" alt="image" src="https://github.com/user-attachments/assets/543834ed-f16c-4a87-8766-8c9e9a7db772" />
+
 
 
 ## Day 03
@@ -70,19 +74,22 @@ It comes around 0.72.
 
 The waveform is given by:
 
---image day34--
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c6b5f34-f609-47d0-bb83-117d8a723eab" />
+
 
 
 From the above waveform we can find the Rise and Fall Delay.
 
 Rise Delay:
 
---image day35--
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/0a7be5fb-a730-405c-bd75-b3fdf26cc6f0" />
+
 
 
 Fall Delay:
 
---image day36--
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2d71b6c6-fa0f-47b3-8b95-e3e05f695fc2" />
+
 
 
 ### Lab 3.2 – day3_inv_vtc_Wp084_Wn036.spice
@@ -96,14 +103,16 @@ Here we are using pfet and nfet for the CMOS inverter. The W/L ratio of PMOS is 
 
 Vin is swept from 0 to 1.8 V with step size 0.01 V and Vout is plotted.
 
---image day31--
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/ed09e9e5-2163-4015-a6c4-8e3fbcbd0989" />
+
 
 
 Now we need to find the switching threshold from this graph. It is the point where Vin is equal to Vout.
 
 To zoom into the curve, press the right mouse button and hold it.
 
---image day32--
+<img width="1918" height="1080" alt="image" src="https://github.com/user-attachments/assets/159e82e2-ae46-453c-a24d-98c76c8a2b5c" />
+
 
 
 ## Day 04
@@ -116,17 +125,19 @@ Here is the SPICE code for Day 04.
 
 Here we take the W/L ratio of PMOS and NMOS as 2.77 and Vin is swept from 0 to 1.8 V with step size 0.01 V.
 
---image day41--
+<img width="1918" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d47625b-e1b0-4b35-9688-e92c4a93b6f0" />
+
 
 
 #### Noise Margin High:
 
---image day42--
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cf3fe3ef-9300-4586-baeb-3bbd3c3468f9" />
+
 
 
 #### Noise Margin Low:
 
---image day42--
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/05a4d6e2-df5b-4e73-b5da-1063820e7d50" />
 
 
 We take the point where slope becomes –1.
@@ -149,12 +160,14 @@ SPICE code is given below.
 First the supply voltage is taken as 1.8 V, then it is decreased by 0.2 V each time.
 So overall, it gives around 6 iterations.
 
---image day51--
+<img width="1917" height="1080" alt="image" src="https://github.com/user-attachments/assets/2f27af32-1d35-4221-a63b-e33ea2347226" />
+
 
 
 From the above waveform, we can calculate the gain and supply variation.
 
---image day52--
+<img width="1920" height="1074" alt="image" src="https://github.com/user-attachments/assets/f2d245d6-3831-4ae7-bc3a-c613ad08121b" />
+
 
 
 ## Lab 5.2 – Device Variation
@@ -167,10 +180,12 @@ SPICE code can be given below.
 
 The simulation, 
 
---image day53--
+<img width="1917" height="1080" alt="image" src="https://github.com/user-attachments/assets/21115fac-2bb0-469d-b422-885300f8bda8" />
+
 
 From the code, we can see that PMOS width is higher than NMOS, so it is strong PMOS and weak NMOS case.
 
 Hence the Vm will shift to the right.
 
---image day54--
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8e4f0daa-0cbc-4fed-b186-a945de3afdd9" />
+
