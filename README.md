@@ -133,9 +133,6 @@ To zoom into the curve, press the right mouse button and hold it.
 
 Here is the SPICE code for Day 04.
 
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b2233eda-9ba8-4ea0-9bc7-66072cb0b68f" />
-
-
 Here we take the W/L ratio of PMOS and NMOS as 2.77 and Vin is swept from 0 to 1.8 V with step size 0.01 V.
 
 <img width="1918" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d47625b-e1b0-4b35-9688-e92c4a93b6f0" />
@@ -157,8 +154,8 @@ We take the point where slope becomes –1.
 
 The x-axis gives VIL and VIH, while the y-axis gives VOH and VOL.
 
-Noise Margin High = VOH − VIH = 1.73 − 0.984 = 0.746
-Noise Margin Low  = VIL − VOL = 0.7566 − 0.1 = 0.6566
+Noise Margin High = VOH − VIH = 1.709 − 0.967 = 0.742
+Noise Margin Low  = VIL − VOL = 0.766 − 0.122 = 0.644
 
 ## Day 05
 ## Lab 5.1 – Supply Variation
@@ -166,9 +163,6 @@ Noise Margin Low  = VIL − VOL = 0.7566 − 0.1 = 0.6566
 ### day5_inv_supplyvariation_Wp1_Wn036.spice
 
 SPICE code is given below.
-
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/cb368833-59e6-4795-a356-f4ef0f8e31c1" />
-
 
 First the supply voltage is taken as 1.8 V, then it is decreased by 0.2 V each time.
 So overall, it gives around 6 iterations.
@@ -188,8 +182,6 @@ From the above waveform, we can calculate the gain and supply variation.
 ### Day5_inv_devicevariation_wp7_wn042.spice
 
 SPICE code can be given below.
-
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/146a063f-6d9e-47a9-b595-72c15b45c0f0" />
 
 The simulation, 
 
