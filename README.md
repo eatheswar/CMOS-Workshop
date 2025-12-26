@@ -5,7 +5,7 @@
 ## Day 01  
 ### day1_nfet_idvds_L2_W5.spice
 
-Open Github through NOVNC connection.
+Open Github link through that we can access those ngspice tools in cloud by novnc connection.
 
 In the Terminal Emulator, open the folder of design files using the following command:
 
