@@ -110,7 +110,6 @@ Fall Delay:
 
 SPICE code for the VTC characteristics can be given below.
 
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/a35b80ba-a01a-40fd-aef6-f8c74cc4931c" />
 
 
 Here we are using pfet and nfet for the CMOS inverter. The W/L ratio of PMOS is taken as 2.33 times compared to NMOS.
